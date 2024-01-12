@@ -1,9 +1,9 @@
-import { Button } from '@/components/ui/button'
-
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <Button>shadcn/ui</Button>
+    <main className="flex h-screen items-center justify-center">
+      <h1 className="text-justify text-9xl font-extrabold">
+        Tailwind UI <br /> Playground
+      </h1>
     </main>
   )
 }
